@@ -8,6 +8,7 @@ void ini_board (char board[15][15],int n);//função que define e imprime o tabu
 void print_board (char board[15][15],int n);//funçao para ser utilizada durante o programa para ver como está o tabuleiro
 int modo_1 (char board[15][15],int n, int*);
 void modo_2(char board[15][15], int n);
+char **abrir(FILE* ,int);
 
 int main(){
   char board[15][15]; //endereço do board
@@ -44,7 +45,6 @@ int main(){
     }
   return 0;
 }
-
 //Inicializar o board aos valores requeridos
 void ini_board(char board[15][15],int n){
   int i,j,k;
@@ -187,16 +187,18 @@ int modo_1(char board[15][15],int n, int * pontos){
 
 void modo_2(char board[15][15], int n){
   int i,j,n2,linha,coluna,centro,r=0;
-  char *word[102401],palavra[50];
+  char **word,palavra[50];
   srand(time(0));
   FILE *Eng;
   FILE *Pt;
-  Eng = fopen("american-english","r");
+  Eng = fopen("american-menos-mais","r");
   Pt=fopen("pt_PT.dic","r");
 
-  for(i=0;i<=102401;i++){
-    word[i]=(char*)malloc(1000*sizeof(char));
-    fgets(word[i],1000,Eng);
+  word = abrir(Eng, n);
+ 
+  if (word == NULL){
+    printf("Não foi possível abrir o dicionário");
+    return;
   }
 
   do{
@@ -247,4 +249,44 @@ void modo_2(char board[15][15], int n){
   fclose(Eng);
   fclose(Pt);
   return;
+}
+/*Função de abertura de dicionáro modificado do lab 5
+  Toma como parâmetro o apontador para o ficheiro a abrir e o tamanho do tabuleiro*/
+char** abrir(FILE *run, int n){
+  char buffer[100], **linhas;
+  int size = 0, i = 0;
+
+  //alocação dinâmica do número de palavras (só pomos em memória as palavras com o tamanho do tauleiro)
+  while(!(feof(run) || size > n)){
+    size = 0;
+    fgets(buffer, 100, run);
+    size = strlen(buffer);
+    i++;
+  }
+
+  linhas = (char**) calloc(i, sizeof(char*));
+  i = 0;
+  if ( linhas[i] == NULL){
+    printf("Erro de memória");
+    free(linhas[i]);
+    return NULL;
+  }
+
+  //alocação dinâmica do tamanho das palavras e armazenamento das mesmas em memória
+  while( !(feof(run) || size > n +1)){
+    size = 0;
+    fgets(buffer, 100, run);
+    size = strlen(buffer) + 1;
+    linhas[i] = (char*) calloc(size, sizeof(char));
+    if ( linhas[i] == NULL){
+      printf("Erro de memória");
+      free(linhas[i]);
+      return NULL;
+    }
+    else{
+      strcpy(linhas[i], buffer);
+    }
+    i++;
+  }
+  return linhas;
 }
