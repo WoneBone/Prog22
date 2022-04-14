@@ -205,10 +205,12 @@ void modo_2(char board[15][15], int n){
   int points = 0, linha, coluna, dir = 1;
   jogada play =  look_word(board, n, n/2, n/2, 0);
   
+  //Primeira jogada na casa central
   putin_board(board, n, play);
   print_board(board, n);
-  printf("%s, %d", play.palavra, play.pontos);
+  printf("%s, %d\n", play.palavra, play.pontos);
   points = points + play.pontos;
+  //Loop. Efetua jogadas até look_word não encontrar uma jogada válida
   while (1){ 
     for(linha = 0; linha < n; linha++){
       for(coluna = 0; coluna< n; coluna ++){
@@ -246,13 +248,16 @@ void bbc(char board[15][15], int n){
     return;
 }
 
+//Função de escrita de uma dada jogada
 void putin_board(char board[15][15], int n, jogada play ){
   int linha = play.linha, coluna = play.coluna, i = 0;
+  //Verificação que a jogada é válida
   play.pontos = point_word(board, n, play);
   if(play.pontos == 0){
     printf("Jogada inválida");
     return;
   }
+  //Loop de escrita
   while(!(play.palavra[i] == '\n' ||play.palavra[i] == '\0')){
     board[linha][coluna] = play.palavra[i];
     if ((play.direcao%2) == 0 )
@@ -264,6 +269,7 @@ void putin_board(char board[15][15], int n, jogada play ){
   return;
 }
 
+//Função de cálculo dos pontos duma dada jogada
 int point_word(char board[15][15],int n, jogada play){
   int pontos_letras[] = {1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10};
   int a=0,points=0,k=0,f=0,j=1, linha = play.linha, coluna= play.coluna;
@@ -307,6 +313,7 @@ int point_word(char board[15][15],int n, jogada play){
     return points;
 }
 
+//Função que procura para uma dada posição a palavra que vale mais pontos de acordo com as específicações dadas no enunciado
 jogada look_word(char board[15][15],int n,int linha,int coluna,int direcao){
   char **word;
   jogada play = {"\0", linha, coluna, direcao, 0}, try1 = {"\0", linha, coluna, direcao, 0}, try2 = {"\0", linha, coluna, direcao, 0};
@@ -328,7 +335,7 @@ jogada look_word(char board[15][15],int n,int linha,int coluna,int direcao){
       try1.palavra[j]=tolower(try1.palavra[j]);
     }
     length = strlen(try1.palavra) -1;//-1 poins as palavras conteêm o caracter '\n'
-
+    //palaras maiores que n/2
     if(length >= ((n + 1)/2)){
       r= n-length;
       if((direcao%2)==0)
@@ -345,7 +352,8 @@ jogada look_word(char board[15][15],int n,int linha,int coluna,int direcao){
         else
           try2.linha++;
       }
-    } 
+    }
+    //palavras menores que n/2
     else{
       r = length;
       try2 = try1;
@@ -354,21 +362,21 @@ jogada look_word(char board[15][15],int n,int linha,int coluna,int direcao){
         if(try1.pontos<try2.pontos)
           try1 = try2;
         if((direcao%2)==0)
-          if(try2.coluna == 0)
+          if(try2.coluna == 0)//Garantir que a palavra não é shifted para fora do tabuleiro
             break;
           else
             try2.coluna--;
         else
-          if(try2.linha == 0)
+          if(try2.linha == 0)//Garantir que a palavra não é shifted para fora do tabuleiro
             break;
           else
             try2.linha--;
       }
     }
+    //cópia de palavra e pocição respetiva caso a pontuação seja maior que a última palavra guardada
     if(play.pontos<try1.pontos)
       play = try1;
   }
-printf("%s com %d\n",play.palavra,play.pontos);
 
 for(i=0;i<sizeOfDic;i++)
   free(word[i]);
