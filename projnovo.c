@@ -202,52 +202,34 @@ int modo_1(char board[15][15],int n, int *pontos){
 }
 
 void modo_2(char board[15][15], int n){
-  int i,j,k,linha,coluna,centro,r=0,point=0,a=0,linha2=0,coluna2=0, sizeOfDic = 0;
-  char **dic;
-  jogada play, try;
-  play.pontos = 1;
-  play.direcao = 0;
-
-  FILE *Eng;
-  if((Eng = fopen("american_menos_mais","r"))==NULL){
-    printf("fds nao consegui abrir a merda do eng");
-  }
-
-  dic = abrir(Eng, n, &sizeOfDic);
+  int points = 0, linha, coluna, dir = 1;
+  jogada play =  look_word(board, n, n/2, n/2, 0);
   
-  for(i=0;i<sizeOfDic;i++){
-  try.linha=0;
-  try.coluna=0;
-
-  strcpy(try.palavra,dic[i]);
-  for ( j=0;j<strlen(try.palavra); ++j) {
-    try.palavra[j]=tolower( try.palavra[j]);
-  }
-  if(strlen(try.palavra)<=n){
-    point = point_word(board, n, try);
-    if(point> play.pontos){
-      play.pontos=point;
-      strcpy(play.palavra,try.palavra);
+  putin_board(board, n, play);
+  print_board(board, n);
+  printf("%s, %d", play.palavra, play.pontos);
+  points = points + play.pontos;
+  while (1){ 
+    for(linha = 0; linha < n; linha++){
+      for(coluna = 0; coluna< n; coluna ++){
+        if ((int) board[linha][coluna] >= (int) 'a' && (int) board[linha][coluna] <= (int) 'z'){
+          play = look_word(board, n, linha, coluna, dir);
+          if (play.pontos == 0){
+            printf("Jogo acabado com %d pontos\n", points);
+            return;
+          }
+          putin_board(board, n, play);
+          print_board(board, n);
+          printf("%scom %d pontos\n", play.palavra, play.pontos);
+          points = points + play.pontos;
+          linha = 0;
+          coluna = 0;
+          dir++;
+        }
       }
     }
   }
-  printf("%s",play.palavra);
-  centro=(((n/2)-(strlen(play.palavra)/2))+1);
-  i=0;
-
-  while(play.palavra[i]!='\n'){
-    if(play.palavra[i]!='\n'){
-    board[(n/2)][centro]=play.palavra[i];
-    i++;
-    centro++;
-    }
-  }
-  print_board(board,n);
-  printf("%s fez %d pontos",play.palavra,play.pontos);
-
-  for(i=0;i<sizeOfDic;i++)
-    free(dic[i]);
-  return;
+return;
 }
 
 void bbc(char board[15][15], int n){
@@ -336,14 +318,19 @@ jogada look_word(char board[15][15],int n,int linha,int coluna,int direcao){
 
   word = abrir(Eng, n, &sizeOfDic);
 
-  for(i=0;i<sizeOfDic;i++){
+//começar procura pelo dicionário
+  for(i = 0 ;i<sizeOfDic;i++){
+
+    try1.linha = linha;
+    try1.coluna = coluna;
     strcpy(try1.palavra,word[i]);
     for ( int j=0;j<strlen(try1.palavra); ++j) {
       try1.palavra[j]=tolower(try1.palavra[j]);
     }
-    length = strlen(try1.palavra);
-    if(length >= (n/2)){
-      r=n-length;
+    length = strlen(try1.palavra) -1;//-1 poins as palavras conteêm o caracter '\n'
+
+    if(length >= ((n + 1)/2)){
+      r= n-length;
       if((direcao%2)==0)
         try1.coluna=0;
       else 
@@ -358,23 +345,33 @@ jogada look_word(char board[15][15],int n,int linha,int coluna,int direcao){
         else
           try2.linha++;
       }
-     if(play.pontos<try1.pontos)
-      play = try1; 
-    } else{
-      for(r; r >= 0; r--){
+    } 
+    else{
+      r = length;
+      try2 = try1;
+      for(r; r > 0; r--){
         try2.pontos = point_word(board,n,try2);
         if(try1.pontos<try2.pontos)
-          try1 = try2;        
+          try1 = try2;
         if((direcao%2)==0)
-          try2.coluna--;
+          if(try2.coluna == 0)
+            break;
+          else
+            try2.coluna--;
         else
-          try2.linha--;
-        if(play.pontos<try1.pontos)
-          play = try1; 
+          if(try2.linha == 0)
+            break;
+          else
+            try2.linha--;
       }
     }
+    if(play.pontos<try1.pontos)
+      play = try1;
   }
 printf("%s com %d\n",play.palavra,play.pontos);
+
+for(i=0;i<sizeOfDic;i++)
+  free(word[i]);
 return play;
 }
 
@@ -386,10 +383,12 @@ char** abrir(FILE *run, int n, int *sizeOfFile){
   *sizeOfFile = 0;
 
   //alocação dinâmica do número de palavras (só pomos em memória as palavras com o tamanho do tauleiro)
-  while(!(feof(run) || size > n + 1)){
+  while(!feof(run)){
     size = 0;
     fgets(buffer, 100, run);
     size = strlen(buffer);
+    if (size > n+1)
+      break;
     *sizeOfFile = *sizeOfFile + 1;
   }
   linhas = (char**) calloc(*sizeOfFile, sizeof(char*));
@@ -403,7 +402,7 @@ char** abrir(FILE *run, int n, int *sizeOfFile){
   fseek(run, 0, SEEK_SET);
 
   //alocação dinâmica do tamanho das palavras e armazenamento das mesmas em memória
-  do{
+  for(i = *sizeOfFile - 1; i >= 0; i--){
     size = 0;
     fgets(buffer, 100, run);
     size = strlen(buffer) + 1;
@@ -416,8 +415,7 @@ char** abrir(FILE *run, int n, int *sizeOfFile){
     else{
       strcpy(linhas[i], buffer);
     }
-    i++;
-  }while( !(feof(run) || size > n + 2));
+  }
 
   fclose(run);
 
