@@ -1,0 +1,316 @@
+ 1 $ . . . . 3 . . . . $
+ 2 . 2 . . # . # . . 2 .
+ 3 . . 2 . . . . . 2 . .
+ 4 . . . 2 . . . 2 . . .
+ 5 . # . . 2 . 2 . . # .
+ 6 3 . . . e x p e d e s
+ 7 . # . . 2 . 2 . . # .
+ 8 . . . 2 . . . 2 . . .
+ 9 . . 2 . . . . . 2 . .
+10 . 2 . . # . # . . 2 .
+11 $ . . . . 3 . . . . $
+   A B C D E F G H I J K
+Letras na mão: esuoesxgdudapiaaoiee
+E6H expedes 27 pontos
+Letras na mão:   uo s g uda iaaoi e
+ 1 $ . . . . 3 . . . . p
+ 2 . 2 . . # . # . . 2 i
+ 3 . . 2 . . . . . 2 . n
+ 4 . . . 2 . . . 2 . . t
+ 5 . # . . 2 . 2 . . # a
+ 6 3 . . . e x p e d e s
+ 7 . # . . 2 . 2 . . # s
+ 8 . . . 2 . . . 2 . . i
+ 9 . . 2 . . . . . 2 . l
+10 . 2 . . # . # . . 2 g
+11 $ . . . . 3 . . . . o
+   A B C D E F G H I J K
+Letras na mão: uosgudaiaaoiepeclntu
+K1V pintassilgo 56 pontos
+Letras na mão: u   ud  aao e ec   u
+ 1 $ . . . . 3 . . . . p
+ 2 . 2 . . # . # . . 2 i
+ 3 . . 2 . . . . . 2 . n
+ 4 . . . 2 . . . 2 . . t
+ 5 . # . . 2 . 2 . . # a
+ 6 3 . . . e x p e d e s
+ 7 . # . . 2 . 2 . . # s
+ 8 . . . 2 . . . 2 . . i
+ 9 . . 2 . . . . . 2 . l
+10 . 2 . . # . # . . 2 g
+11 a m a n t e i g a d o
+   A B C D E F G H I J K
+Letras na mão: uudaaoeecutmegitmsan
+A11H amanteigado 34 pontos
+Letras na mão: uu   o ecu  e  tms  
+ 1 $ . . . . 3 . . . . p
+ 2 . 2 . . # . # . . 2 i
+ 3 . . 2 . . . . . 2 . n
+ 4 . . . 2 . . . 2 . . t
+ 5 . # . . x . 2 . . # a
+ 6 3 . . . e x p e d e s
+ 7 . # . . q . 2 . . # s
+ 8 . . . 2 u . . 2 . . i
+ 9 . . 2 . e . . . 2 . l
+10 . 2 . . # . # . . 2 g
+11 a m a n t e i g a d o
+   A B C D E F G H I J K
+Letras na mão: uuoecuetmsqnadxuldmu
+E5V xeque 39 pontos
+Letras na mão:  uo cuetms nad uldmu
+ 1 $ . . . . 3 . . . . p
+ 2 . 2 . . # . # . . 2 i
+ 3 a . 2 . . . . . 2 . n
+ 4 d . . 2 . . . 2 . . t
+ 5 u # . . x . 2 . . # a
+ 6 b . . . e x p e d e s
+ 7 a # . . q . 2 . . # s
+ 8 d . . 2 u . . 2 . . i
+ 9 e . 2 . e . . . 2 . l
+10 l 2 . . # . # . . 2 g
+11 a m a n t e i g a d o
+   A B C D E F G H I J K
+Letras na mão: uocuetmsnaduldmuabss
+A3V adubadela 19 pontos
+Letras na mão:  ocu tmsn  u  mu  ss
+ 1 $ . . . . c . . . . p
+ 2 . 2 . . # a # . . 2 i
+ 3 a . 2 . . r . . 2 . n
+ 4 d . . 2 . t . 2 . . t
+ 5 u # . . x u 2 . . # a
+ 6 b . . . e x p e d e s
+ 7 a # . . q o 2 . . # s
+ 8 d . . 2 u . . 2 . . i
+ 9 e . 2 . e . . . 2 . l
+10 l 2 . . # . # . . 2 g
+11 a m a n t e i g a d o
+   A B C D E F G H I J K
+Letras na mão: ocutmsnumussuecgabrl
+F1V cartuxo 22 pontos
+Letras na mão:     msnumussuecg b l
+ 1 $ . . . . c . . . . p
+ 2 . 2 . . # a # c . 2 i
+ 3 a . 2 . . r . o 2 . n
+ 4 d . . 2 . t . m . . t
+ 5 u # . . x u 2 p . # a
+ 6 b . . . e x p e d e s
+ 7 a # . . q o 2 l . # s
+ 8 d . . 2 u . . e . . i
+ 9 e . 2 . e . . m 2 . l
+10 l 2 . . # . # . . 2 g
+11 a m a n t e i g a d o
+   A B C D E F G H I J K
+Letras na mão: msnumussuecgblosssap
+H2V compelem 20 pontos
+Letras na mão:  snu ussu  gb  sssa 
+ 1 $ . . . . c . . b . p
+ 2 . 2 . . # a # c e 2 i
+ 3 a . 2 . . r . o r . n
+ 4 d . . 2 . t . m m . t
+ 5 u # . . x u 2 p u # a
+ 6 b . . . e x p e d e s
+ 7 a # . . q o 2 l a # s
+ 8 d . . 2 u . . e s . i
+ 9 e . 2 . e . . m 2 . l
+10 l 2 . . # . # . . 2 g
+11 a m a n t e i g a d o
+   A B C D E F G H I J K
+Letras na mão: snuussugbsssalmerunh
+I1V bermudas 14 pontos
+Letras na mão:  n ussug sss l   unh
+ 1 $ . . . . c . . b . p
+ 2 . 2 . . # a # c e 2 i
+ 3 a . 2 . . r . o r . n
+ 4 d . . 2 . t . m m . t
+ 5 u # . . x u 2 p u # a
+ 6 b . f . e x p e d e s
+ 7 a # a . q o 2 l a # s
+ 8 d . x 2 u . . e s . i
+ 9 e . i . e . . m 2 . l
+10 l 2 n . # . # . . 2 g
+11 a m a n t e i g a d o
+   A B C D E F G H I J K
+Letras na mão: nussugssslunhxaiuupf
+C6V faxina 17 pontos
+Letras na mão:  ussugssslunh   uup 
+ 1 $ . . . . c . . b . p
+ 2 . 2 . . # a # c e 2 i
+ 3 a p u p a r . o r . n
+ 4 d . . 2 . t . m m . t
+ 5 u # . . x u 2 p u # a
+ 6 b . f . e x p e d e s
+ 7 a # a . q o 2 l a # s
+ 8 d . x 2 u . . e s . i
+ 9 e . i . e . . m 2 . l
+10 l 2 n . # . # . . 2 g
+11 a m a n t e i g a d o
+   A B C D E F G H I J K
+Letras na mão: ussugssslunhuupsaptb
+A3H apupar 11 pontos
+Letras na mão:  ssugssslunhuu s  tb
+ 1 $ . . . . c . . b . p
+ 2 . 2 . . # a # c e 2 i
+ 3 a p u p a r . o r . n
+ 4 d . . i . t . m m . t
+ 5 u # . n x u 2 p u # a
+ 6 b . f h e x p e d e s
+ 7 a # a a q o 2 l a # s
+ 8 d . x l u . . e s . i
+ 9 e . i . e . . m 2 . l
+10 l 2 n . # . # . . 2 g
+11 a m a n t e i g a d o
+   A B C D E F G H I J K
+Letras na mão: ssugssslunhuustbufai
+D3V pinhal 13 pontos
+Letras na mão: ssugsss u  uustbuf  
+ 1 $ . t . . c . . b . p
+ 2 . 2 r . # a # c e 2 i
+ 3 a p u p a r . o r . n
+ 4 d . z i . t . m m . t
+ 5 u # . n x u 2 p u # a
+ 6 b . f h e x p e d e s
+ 7 a # a a q o 2 l a # s
+ 8 d . x l u . . e s . i
+ 9 e . i . e . . m 2 . l
+10 l 2 n . # . # . . 2 g
+11 a m a n t e i g a d o
+   A B C D E F G H I J K
+Letras na mão: ssugsssuuustbufnuizr
+C1V truz 13 pontos
+Letras na mão: ssugsssuuus bufnui  
+ 1 $ . t e . c . . b . p
+ 2 . 2 r s # a # c e 2 i
+ 3 a p u p a r . o r . n
+ 4 d . z i . t . m m . t
+ 5 u # . n x u 2 p u # a
+ 6 b . f h e x p e d e s
+ 7 a # a a q o 2 l a # s
+ 8 d . x l u . . e s . i
+ 9 e . i . e . . m 2 . l
+10 l 2 n . # . # . . 2 g
+11 a m a n t e i g a d o
+   A B C D E F G H I J K
+Letras na mão: ssugsssuuusbufnuierc
+D1V espinhal 13 pontos
+Letras na mão:  sugsssuuusbufnui rc
+ 1 $ . t e . c . . b . p
+ 2 . 2 r s # a # c e 2 i
+ 3 a p u p a r c o r . n
+ 4 d . z i . t u m m . t
+ 5 u # . n x u s p u # a
+ 6 b . f h e x p e d e s
+ 7 a # a a q o i l a # s
+ 8 d . x l u . r e s . i
+ 9 e . i . e . . m 2 . l
+10 l 2 n . # . # . . 2 g
+11 a m a n t e i g a d o
+   A B C D E F G H I J K
+Letras na mão: sugsssuuusbufnuircpe
+G3V cuspir 12 pontos
+Letras na mão:   gsssuuusbufnu   pe
+ 1 b o t e . c . . b . p
+ 2 . 2 r s # a # c e 2 i
+ 3 a p u p a r c o r . n
+ 4 d . z i . t u m m . t
+ 5 u # . n x u s p u # a
+ 6 b . f h e x p e d e s
+ 7 a # a a q o i l a # s
+ 8 d . x l u . r e s . i
+ 9 e . i . e . . m 2 . l
+10 l 2 n . # . # . . 2 g
+11 a m a n t e i g a d o
+   A B C D E F G H I J K
+Letras na mão: gsssuuusbufnupeaolnl
+A1H bote 12 pontos
+Letras na mão: gsssuuus ufnupea lnl
+ 1 b o t e . c . . b . p
+ 2 . 2 r s # a # c e 2 i
+ 3 a p u p a r c o r . n
+ 4 d . z i . t u m m . t
+ 5 u # . n x u s p u # a
+ 6 b . f h e x p e d e s
+ 7 a # a a q o i l a # s
+ 8 d . x l u . r e s . i
+ 9 e p i . e . . m 2 . l
+10 l u n . # . # . . 2 g
+11 a m a n t e i g a d o
+   A B C D E F G H I J K
+Letras na mão: gsssuuusufnupealnlsp
+B9V pum 8 pontos
+Letras na mão: gsss uusufnu ealnlsp
+ 1 b o t e . c . . b . p
+ 2 . 2 r s # a # c e 2 i
+ 3 a p u p a r c o r . n
+ 4 d . z i . t u m m . t
+ 5 u # . n x u s p u # a
+ 6 b . f h e x p e d e s
+ 7 a # a a q o i l a # s
+ 8 d . x l u . r e s . i
+ 9 e p i . e . . m e . l
+10 l u n . # . # . . 2 g
+11 a m a n t e i g a d o
+   A B C D E F G H I J K
+Letras na mão: gsssuusufnuealnlspuu
+H9H me 5 pontos
+Letras na mão: gsssuusufnu alnlspuu
+ 1 b o t e . c u . b . p
+ 2 . 2 r s # a # c e 2 i
+ 3 a p u p a r c o r . n
+ 4 d . z i . t u m m . t
+ 5 u # . n x u s p u # a
+ 6 b . f h e x p e d e s
+ 7 a # a a q o i l a # s
+ 8 d . x l u . r e s . i
+ 9 e p i . e . . m e . l
+10 l u n . # . # . . 2 g
+11 a m a n t e i g a d o
+   A B C D E F G H I J K
+Letras na mão: gsssuusufnualnlspuuo
+F1H cu 4 pontos
+Letras na mão: gsss usufnualnlspuuo
+ 1 b o t e . c u . b . p
+ 2 . 2 r s # a # c e 2 i
+ 3 a p u p a r c o r . n
+ 4 d . z i . t u m m . t
+ 5 u # . n x u s p u # a
+ 6 b . f h e x p e d e s
+ 7 a # a a q o i l a # s
+ 8 d . x l u . r e s . i
+ 9 e p i . e . . m e . l
+10 l u n . # . # . e n g
+11 a m a n t e i g a d o
+   A B C D E F G H I J K
+Letras na mão: gsssusufnualnlspuuoe
+I10H eng 5 pontos
+Letras na mão: gsssusuf ualnlspuuo 
+ 1 b o t e . c u . b . p
+ 2 . 2 r s # a # c e 2 i
+ 3 a p u p a r c o r . n
+ 4 d . z i . t u m m . t
+ 5 u # . n x u s p u # a
+ 6 b . f h e x p e d e s
+ 7 a # a a q o i l a # s
+ 8 d . x l u . r e s . i
+ 9 e p i . e e . m e . l
+10 l u n . # l # . e n g
+11 a m a n t e i g a d o
+   A B C D E F G H I J K
+Letras na mão: gsssusufualnlspuuoer
+F9V ele 3 pontos
+Letras na mão: gsssusufua nlspuuo r
+ 1 b o t e . c u . b . p
+ 2 . 2 r s # a # c e 2 i
+ 3 a p u p a r c o r . n
+ 4 d . z i . t u m m . t
+ 5 u # . n x u s p u # a
+ 6 b . f h e x p e d e s
+ 7 a # a a q o i l a # s
+ 8 d . x l u . r e s . i
+ 9 e p i . e e . m e . l
+10 l u n l # l # . e n g
+11 a m a n t e i g a d o
+   A B C D E F G H I J K
+Letras na mão: gsssusufuanlspuuorex
+D10V ln 2 pontos
+Letras na mão: gsssusufuan spuuorex
+Fim do jogo. Total de pontos obtidos: 349

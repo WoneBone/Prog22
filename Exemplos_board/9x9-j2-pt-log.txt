@@ -1,0 +1,177 @@
+ 1 $ . . . 3 . . . $
+ 2 . 2 . # . # . 2 .
+ 3 . . 2 . . . 2 . .
+ 4 . # . 2 . 2 . # .
+ 5 j a c u z z i . 3
+ 6 . # . 2 . 2 . # .
+ 7 . . 2 . . . 2 . .
+ 8 . 2 . # . # . 2 .
+ 9 $ . . . 3 . . . $
+   A B C D E F G H I
+A5H jacuzzi 60 pontos
+ 1 q . . . 3 . . . $
+ 2 u 2 . # . # . 2 .
+ 3 e . 2 . . . 2 . .
+ 4 i # . 2 . 2 . # .
+ 5 j a c u z z i . 3
+ 6 a # . 2 . 2 . # .
+ 7 r . 2 . . . 2 . .
+ 8 i 2 . # . # . 2 .
+ 9 a . . . 3 . . . $
+   A B C D E F G H I
+A1V queijaria 100 pontos
+ 1 q u i n z e n a l
+ 2 u 2 . # . # . 2 .
+ 3 e . 2 . . . 2 . .
+ 4 i # . 2 . 2 . # .
+ 5 j a c u z z i . 3
+ 6 a # . 2 . 2 . # .
+ 7 r . 2 . . . 2 . .
+ 8 i 2 . # . # . 2 .
+ 9 a . . . 3 . . . $
+   A B C D E F G H I
+A1H quinzenal 94 pontos
+ 1 q u i n z e n a l
+ 2 u 2 . # . # . 2 .
+ 3 e . 2 . . . 2 . .
+ 4 i # . 2 . 2 . # .
+ 5 j a c u z z i . 3
+ 6 a # . 2 . 2 . # .
+ 7 r . 2 . . . 2 . .
+ 8 i 2 . # . # . 2 .
+ 9 a j u i z a m o s
+   A B C D E F G H I
+A9H ajuizamos 94 pontos
+ 1 q u i n z e n a l
+ 2 u 2 . # . # . 2 .
+ 3 e . 2 . . . 2 . j
+ 4 i # . 2 . 2 . # a
+ 5 j a c u z z i . z
+ 6 a # . 2 . 2 . # e
+ 7 r . 2 . . . 2 . m
+ 8 i 2 . # . # . 2 o
+ 9 a j u i z a m o s
+   A B C D E F G H I
+I3V jazemos 45 pontos
+ 1 q u i n z e n a l
+ 2 u 2 . # . # . 2 .
+ 3 e . 2 . . f 2 . j
+ 4 i # . 2 . u . # a
+ 5 j a c u z z i . z
+ 6 a # . 2 . z . # e
+ 7 r . 2 . . y 2 . m
+ 8 i 2 . # . # . 2 o
+ 9 a j u i z a m o s
+   A B C D E F G H I
+F3V fuzzy 40 pontos
+ 1 q u i n z e n a l
+ 2 u 2 . # . # . 2 .
+ 3 e . 2 . . f 2 . j
+ 4 i # . 2 . u . # a
+ 5 j a c u z z i . z
+ 6 a # . j a z z # e
+ 7 r . 2 . . y 2 . m
+ 8 i 2 . # . # . 2 o
+ 9 a j u i z a m o s
+   A B C D E F G H I
+D6H jazz 37 pontos
+ 1 q u i n z e n a l
+ 2 u 2 . # . # . 2 .
+ 3 e s q u i f e . j
+ 4 i # . 2 . u . # a
+ 5 j a c u z z i . z
+ 6 a # . j a z z # e
+ 7 r . 2 . . y 2 . m
+ 8 i 2 . # . # . 2 o
+ 9 a j u i z a m o s
+   A B C D E F G H I
+A3H esquife 30 pontos
+ 1 q u i n z e n a l
+ 2 u 2 . # . # . 2 .
+ 3 e s q u i f e . j
+ 4 i # . 2 . u . # a
+ 5 j a c u z z i . z
+ 6 a # . j a z z # e
+ 7 r e z a . y 2 . m
+ 8 i 2 . # . # . 2 o
+ 9 a j u i z a m o s
+   A B C D E F G H I
+A7H reza 23 pontos
+ 1 q u i n z e n a l
+ 2 u 2 . # . # . z .
+ 3 e s q u i f e o j
+ 4 i # . 2 . u . # a
+ 5 j a c u z z i . z
+ 6 a # . j a z z # e
+ 7 r e z a . y 2 . m
+ 8 i 2 . # . # . 2 o
+ 9 a j u i z a m o s
+   A B C D E F G H I
+H1V azo 22 pontos
+ 1 q u i n z e n a l
+ 2 u 2 . # . # . z .
+ 3 e s q u i f e o j
+ 4 i # . 2 . u . # a
+ 5 j a c u z z i . z
+ 6 a # . j a z z # e
+ 7 r e z a . y 2 a m
+ 8 i 2 . # . # . z o
+ 9 a j u i z a m o s
+   A B C D E F G H I
+H7V azo 22 pontos
+ 1 q u i n z e n a l
+ 2 u 2 . # . # . z .
+ 3 e s q u i f e o j
+ 4 i # j e j u m # a
+ 5 j a c u z z i . z
+ 6 a # . j a z z # e
+ 7 r e z a . y 2 a m
+ 8 i 2 . # . # . z o
+ 9 a j u i z a m o s
+   A B C D E F G H I
+C4H jejum 22 pontos
+ 1 q u i n z e n a l
+ 2 u 2 . # . # a z o
+ 3 e s q u i f e o j
+ 4 i # j e j u m # a
+ 5 j a c u z z i . z
+ 6 a # . j a z z # e
+ 7 r e z a . y 2 a m
+ 8 i 2 . # . # . z o
+ 9 a j u i z a m o s
+   A B C D E F G H I
+G2H azo 12 pontos
+ 1 q u i n z e n a l
+ 2 u 2 . # . # a z o
+ 3 e s q u i f e o j
+ 4 i # j e j u m # a
+ 5 j a c u z z i . z
+ 6 a # . j a z z # e
+ 7 r e z a . y 2 a m
+ 8 i 2 . # . # a z o
+ 9 a j u i z a m o s
+   A B C D E F G H I
+G8H azo 12 pontos
+ 1 q u i n z e n a l
+ 2 u f a # . # a z o
+ 3 e s q u i f e o j
+ 4 i # j e j u m # a
+ 5 j a c u z z i . z
+ 6 a # . j a z z # e
+ 7 r e z a . y 2 a m
+ 8 i 2 . # . # a z o
+ 9 a j u i z a m o s
+   A B C D E F G H I
+A2H ufa 10 pontos
+ 1 q u i n z e n a l
+ 2 u f a # . # a z o
+ 3 e s q u i f e o j
+ 4 i # j e j u m # a
+ 5 j a c u z z i . z
+ 6 a # . j a z z # e
+ 7 r e z a . y 2 a m
+ 8 i d a # . # a z o
+ 9 a j u i z a m o s
+   A B C D E F G H I
+A8H ida 6 pontos
+Fim do jogo. Total de pontos obtidos: 629

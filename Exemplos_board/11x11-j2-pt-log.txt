@@ -1,0 +1,248 @@
+ 1 $ . . . . 3 . . . . $
+ 2 . 2 . . # . # . . 2 .
+ 3 . . 2 . . . . . 2 . .
+ 4 . . . 2 . . . 2 . . .
+ 5 . # . . 2 . 2 . . # .
+ 6 e m b a i x a t r i z
+ 7 . # . . 2 . 2 . . # .
+ 8 . . . 2 . . . 2 . . .
+ 9 . . 2 . . . . . 2 . .
+10 . 2 . . # . # . . 2 .
+11 $ . . . . 3 . . . . $
+   A B C D E F G H I J K
+A6H embaixatriz 61 pontos
+ 1 b . . . . 3 . . . . $
+ 2 o 2 . . # . # . . 2 .
+ 3 l . 2 . . . . . 2 . .
+ 4 c . . 2 . . . 2 . . .
+ 5 h # . . 2 . 2 . . # .
+ 6 e m b a i x a t r i z
+ 7 v # . . 2 . 2 . . # .
+ 8 i . . 2 . . . 2 . . .
+ 9 q . 2 . . . . . 2 . .
+10 u 2 . . # . # . . 2 .
+11 e . . . . 3 . . . . $
+   A B C D E F G H I J K
+A1V bolchevique 120 pontos
+ 1 b . . . . 3 . . . . e
+ 2 o 2 . . # . # . . 2 n
+ 3 l . 2 . . . . . 2 . c
+ 4 c . . 2 . . . 2 . . r
+ 5 h # . . 2 . 2 . . # u
+ 6 e m b a i x a t r i z
+ 7 v # . . 2 . 2 . . # i
+ 8 i . . 2 . . . 2 . . l
+ 9 q . 2 . . . . . 2 . h
+10 u 2 . . # . # . . 2 a
+11 e . . . . 3 . . . . r
+   A B C D E F G H I J K
+K1V encruzilhar 100 pontos
+ 1 b . . . . e . . . . e
+ 2 o 2 . . # m # . . 2 n
+ 3 l . 2 . . b . . 2 . c
+ 4 c . . 2 . a . 2 . . r
+ 5 h # . . 2 i 2 . . # u
+ 6 e m b a i x a t r i z
+ 7 v # . . 2 a 2 . . # i
+ 8 i . . 2 . t . 2 . . l
+ 9 q . 2 . . r . . 2 . h
+10 u 2 . . # i # . . 2 a
+11 e . . . . z . . . . r
+   A B C D E F G H I J K
+F1V embaixatriz 53 pontos
+ 1 b . . . . e . . . . e
+ 2 o 2 . . # m # . . 2 n
+ 3 l . 2 . . b . . 2 . c
+ 4 c . . 2 . a . 2 . . r
+ 5 h # . . 2 i j . . # u
+ 6 e m b a i x a t r i z
+ 7 v # . . 2 a z . . # i
+ 8 i . . 2 . t z 2 . . l
+ 9 q . 2 . . r . . 2 . h
+10 u 2 . . # i # . . 2 a
+11 e . . . . z . . . . r
+   A B C D E F G H I J K
+G5V jazz 47 pontos
+ 1 b . . . . e . . . . e
+ 2 o 2 . . # m # . . 2 n
+ 3 l . 2 . . b . . 2 . c
+ 4 c . . q . a . 2 . . r
+ 5 h # . u 2 i j . . # u
+ 6 e m b a i x a t r i z
+ 7 v # . l 2 a z . . # i
+ 8 i . . q . t z 2 . . l
+ 9 q . 2 u . r . . 2 . h
+10 u 2 . e # i # . . 2 a
+11 e . . r . z . . . . r
+   A B C D E F G H I J K
+D4V qualquer 46 pontos
+ 1 b . . . . e . . e . e
+ 2 o 2 . . # m # . s 2 n
+ 3 l . 2 . . b . . q . c
+ 4 c . . q . a . 2 u . r
+ 5 h # . u 2 i j . a # u
+ 6 e m b a i x a t r i z
+ 7 v # . l 2 a z . t # i
+ 8 i . . q . t z 2 e . l
+ 9 q . 2 u . r . . j . h
+10 u 2 . e # i # . a 2 a
+11 e . . r . z . . r . r
+   A B C D E F G H I J K
+I1V esquartejar 45 pontos
+ 1 b . . . . e . . e . e
+ 2 o 2 . . # m # . s 2 n
+ 3 l . 2 . t b . . q . c
+ 4 c . . q a a . 2 u . r
+ 5 h # . u j i j . a # u
+ 6 e m b a i x a t r i z
+ 7 v # . l q a z . t # i
+ 8 i . . q u t z 2 e . l
+ 9 q . 2 u e r . . j . h
+10 u 2 . e # i # . a 2 a
+11 e . . r . z . . r . r
+   A B C D E F G H I J K
+E3V tajique 41 pontos
+ 1 b . . . . e . . e . e
+ 2 o 2 . . # m # . s 2 n
+ 3 l . z . t b . . q . c
+ 4 c . a q a a . 2 u . r
+ 5 h # m u j i j . a # u
+ 6 e m b a i x a t r i z
+ 7 v # u l q a z . t # i
+ 8 i . j q u t z 2 e . l
+ 9 q . a u e r . . j . h
+10 u 2 l e # i # . a 2 a
+11 e . . r . z . . r . r
+   A B C D E F G H I J K
+C3V zambujal 39 pontos
+ 1 b . . . . e . t e . e
+ 2 o 2 . . # m # i s 2 n
+ 3 l . z . t b . q q . c
+ 4 c . a q a a . u u . r
+ 5 h # m u j i j e a # u
+ 6 e m b a i x a t r i z
+ 7 v # u l q a z a t # i
+ 8 i . j q u t z q e . l
+ 9 q . a u e r . u j . h
+10 u 2 l e # i # e a 2 a
+11 e . . r . z . . r . r
+   A B C D E F G H I J K
+H1V tiquetaque 39 pontos
+ 1 b . j a z e . t e . e
+ 2 o 2 . . # m # i s 2 n
+ 3 l . z . t b . q q . c
+ 4 c . a q a a . u u . r
+ 5 h # m u j i j e a # u
+ 6 e m b a i x a t r i z
+ 7 v # u l q a z a t # i
+ 8 i . j q u t z q e . l
+ 9 q . a u e r . u j . h
+10 u 2 l e # i # e a 2 a
+11 e . . r . z . . r . r
+   A B C D E F G H I J K
+C1H jaze 20 pontos
+ 1 b . j a z e . t e . e
+ 2 o 2 . . # m # i s 2 n
+ 3 l . z . t b . q q . c
+ 4 c . a q a a . u u . r
+ 5 h # m u j i j e a # u
+ 6 e m b a i x a t r i z
+ 7 v # u l q a z a t # i
+ 8 i . j q u t z q e . l
+ 9 q . a u e r . u j . h
+10 u 2 l e # i # e a 2 a
+11 e . . r . z e b r a r
+   A B C D E F G H I J K
+F11H zebrar 17 pontos
+ 1 b . j a z e . t e . e
+ 2 o 2 . . # m # i s 2 n
+ 3 l . z . t b . q q . c
+ 4 c . a q a a . u u . r
+ 5 h # m u j i j e a # u
+ 6 e m b a i x a t r i z
+ 7 v # u l q a z a t # i
+ 8 i . j q u t z q e j l
+ 9 q . a u e r . u j a h
+10 u 2 l e # i # e a z a
+11 e . . r . z e b r a r
+   A B C D E F G H I J K
+J8V jaza 30 pontos
+ 1 b . j a z e . t e . e
+ 2 o n z e # m # i s 2 n
+ 3 l . z . t b . q q . c
+ 4 c . a q a a . u u . r
+ 5 h # m u j i j e a # u
+ 6 e m b a i x a t r i z
+ 7 v # u l q a z a t # i
+ 8 i . j q u t z q e j l
+ 9 q . a u e r . u j a h
+10 u 2 l e # i # e a z a
+11 e . . r . z e b r a r
+   A B C D E F G H I J K
+A2H onze 14 pontos
+ 1 b o j a z e . t e . e
+ 2 o n z e # m # i s 2 n
+ 3 l z z . t b . q q . c
+ 4 c e a q a a . u u . r
+ 5 h # m u j i j e a # u
+ 6 e m b a i x a t r i z
+ 7 v # u l q a z a t # i
+ 8 i . j q u t z q e j l
+ 9 q . a u e r . u j a h
+10 u 2 l e # i # e a z a
+11 e . . r . z e b r a r
+   A B C D E F G H I J K
+B1V onze 13 pontos
+ 1 b o j a z e . t e . e
+ 2 o n z e # m # i s 2 n
+ 3 l z z . t b . q q . c
+ 4 c e a q a a . u u . r
+ 5 h # m u j i j e a # u
+ 6 e m b a i x a t r i z
+ 7 v # u l q a z a t # i
+ 8 i . j q u t z q e j l
+ 9 q . a u e r . u j a h
+10 u 2 l e # i # e a z a
+11 e x . r . z e b r a r
+   A B C D E F G H I J K
+A11H ex 9 pontos
+ 1 b o j a z e . t e . e
+ 2 o n z e # m # i s 2 n
+ 3 l z z . t b . q q . c
+ 4 c e a q a a . u u . r
+ 5 h # m u j i j e a # u
+ 6 e m b a i x a t r i z
+ 7 v # u l q a z a t # i
+ 8 i . j q u t z q e j l
+ 9 q f a u e r . u j a h
+10 u a l e # i # e a z a
+11 e x . r . z e b r a r
+   A B C D E F G H I J K
+B9V fax 14 pontos
+ 1 b o j a z e . t e v e
+ 2 o n z e # m # i s 2 n
+ 3 l z z . t b . q q . c
+ 4 c e a q a a . u u . r
+ 5 h # m u j i j e a # u
+ 6 e m b a i x a t r i z
+ 7 v # u l q a z a t # i
+ 8 i . j q u t z q e j l
+ 9 q f a u e r . u j a h
+10 u a l e # i # e a z a
+11 e x . r . z e b r a r
+   A B C D E F G H I J K
+H1H teve 7 pontos
+ 1 b o j a z e . t e v e
+ 2 o n z e # m # i s e n
+ 3 l z z . t b . q q z c
+ 4 c e a q a a . u u . r
+ 5 h # m u j i j e a # u
+ 6 e m b a i x a t r i z
+ 7 v # u l q a z a t # i
+ 8 i . j q u t z q e j l
+ 9 q f a u e r . u j a h
+10 u a l e # i # e a z a
+11 e x . r . z e b r a r
+   A B C D E F G H I J K
+J1V vez 16 pontos
+Fim do jogo. Total de pontos obtidos: 731

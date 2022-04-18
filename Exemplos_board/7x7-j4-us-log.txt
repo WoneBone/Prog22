@@ -1,0 +1,100 @@
+ 1 $ . . 3 . . $
+ 2 . 2 # . # 2 .
+ 3 . # 2 . 2 # .
+ 4 q u a r k . 3
+ 5 . # 2 . 2 # .
+ 6 . 2 # . # 2 .
+ 7 $ . . 3 . . $
+   A B C D E F G
+Letras na mão: rqrnadnbnnaukuotdvuw
+A4H quark 39 pontos
+Letras na mão:   rn dnbnna  uotdvuw
+ 1 o . . 3 . . $
+ 2 p 2 # . # 2 .
+ 3 a # 2 . 2 # .
+ 4 q u a r k . 3
+ 5 u # 2 . 2 # .
+ 6 e 2 # . # 2 .
+ 7 d . . 3 . . $
+   A B C D E F G
+Letras na mão: rndnbnnauotdvuwpeaio
+A1V opaqued 76 pontos
+Letras na mão: rn nbnn   tdvuw  aio
+ 1 o u t w a r d
+ 2 p 2 # . # 2 .
+ 3 a # 2 . 2 # .
+ 4 q u a r k . 3
+ 5 u # 2 . 2 # .
+ 6 e 2 # . # 2 .
+ 7 d . . 3 . . $
+   A B C D E F G
+Letras na mão: rnnbnntdvuwaioiutnpt
+A1H outward 38 pontos
+Letras na mão:  nnbnn  v   ioiutnpt
+ 1 o u t w a r d
+ 2 p 2 # . # 2 i
+ 3 a # 2 . 2 # n
+ 4 q u a r k . g
+ 5 u # 2 . 2 # i
+ 6 e 2 # . # 2 n
+ 7 d . . 3 . . g
+   A B C D E F G
+Letras na mão: nnbnnvioiutnptsgnguz
+G1V dinging 28 pontos
+Letras na mão:   bnnv o utnpts n uz
+ 1 o u t w a r d
+ 2 p 2 # . # 2 i
+ 3 a # z . 2 # n
+ 4 q u a r k . g
+ 5 u # p . 2 # i
+ 6 e 2 # . # 2 n
+ 7 d . . 3 . . g
+   A B C D E F G
+Letras na mão: bnnvoutnptsnuzfenesr
+C3V zap 27 pontos
+Letras na mão: bnnvoutn tsnu fenesr
+ 1 o u t w a r d
+ 2 p 2 # . # 2 i
+ 3 a # z . 2 # n
+ 4 q u a r k . g
+ 5 u # p . 2 # i
+ 6 e 2 # . # 2 n
+ 7 d r o v e . g
+   A B C D E F G
+Letras na mão: bnnvoutntsnufenesrod
+A7H drove 17 pontos
+Letras na mão: bnn  utntsnuf nes od
+ 1 o u t w a r d
+ 2 p 2 # . # 2 i
+ 3 a # z . s # n
+ 4 q u a r k . g
+ 5 u # p . y # i
+ 6 e 2 # . # 2 n
+ 7 d r o v e . g
+   A B C D E F G
+Letras na mão: bnnutntsnufnesodwlny
+E3V sky 15 pontos
+Letras na mão: bnnutnt nufnesodwln 
+ 1 o u t w a r d
+ 2 p 2 # e # 2 i
+ 3 a # z . s # n
+ 4 q u a r k . g
+ 5 u # p . y # i
+ 6 e 2 # . # 2 n
+ 7 d r o v e . g
+   A B C D E F G
+Letras na mão: bnnutntnufnesodwlnay
+D1V we 5 pontos
+Letras na mão: bnnutntnufn sodwlnay
+ 1 o u t w a r d
+ 2 p 2 # e # 2 i
+ 3 a # z . s # n
+ 4 q u a r k . g
+ 5 u # p . y # i
+ 6 e 2 # . # a n
+ 7 d r o v e . g
+   A B C D E F G
+Letras na mão: bnnutntnufnsodwlnays
+F6H an 3 pontos
+Letras na mão: bnnutntnufnsodwln ys
+Fim do jogo. Total de pontos obtidos: 248

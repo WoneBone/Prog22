@@ -1,0 +1,209 @@
+ 1 $ . . . 3 . . . $
+ 2 . 2 . # . # . 2 .
+ 3 . . 2 . . . 2 . .
+ 4 . # . 2 . 2 . # .
+ 5 q u a r k . . . 3
+ 6 . # . 2 . 2 . # .
+ 7 . . 2 . . . 2 . .
+ 8 . 2 . # . # . 2 .
+ 9 $ . . . 3 . . . $
+   A B C D E F G H I
+Letras na mão: rqrnadnbnnaukuotdvuw
+A5H quark 43 pontos
+Letras na mão:   rn dnbnna  uotdvuw
+ 1 a . . . 3 . . . $
+ 2 n 2 . # . # . 2 .
+ 3 t . 2 . . . 2 . .
+ 4 i # . 2 . 2 . # .
+ 5 q u a r k . . . 3
+ 6 u # . 2 . 2 . # .
+ 7 e . 2 . . . 2 . .
+ 8 d 2 . # . # . 2 .
+ 9 $ . . . 3 . . . $
+   A B C D E F G H I
+Letras na mão: rndnbnnauotdvuwpeaio
+A1V antiqued 36 pontos
+Letras na mão: r  nbnn  o dvuwp a o
+ 1 a n t i p a s t o
+ 2 n 2 . # . # . 2 .
+ 3 t . 2 . . . 2 . .
+ 4 i # . 2 . 2 . # .
+ 5 q u a r k . . . 3
+ 6 u # . 2 . 2 . # .
+ 7 e . 2 . . . 2 . .
+ 8 d 2 . # . # . 2 .
+ 9 $ . . . 3 . . . $
+   A B C D E F G H I
+Letras na mão: rnbnnodvuwpaoiutnpts
+A1H antipasto 34 pontos
+Letras na mão: r bnn dvuw  o u np  
+ 1 a n t i p a s t o
+ 2 n 2 . # . # . 2 .
+ 3 t . 2 f . . 2 . .
+ 4 i # . u . 2 . # .
+ 5 q u a r k . . . 3
+ 6 u # . z . 2 . # .
+ 7 e . 2 e . . 2 . .
+ 8 d 2 . # . # . 2 .
+ 9 $ . . . 3 . . . $
+   A B C D E F G H I
+Letras na mão: rbnndvuwounpgnguzfen
+D3V furze 28 pontos
+Letras na mão: rbnndv wounpgngu   n
+ 1 a n t i p a s t o
+ 2 n 2 . # . # . 2 v
+ 3 t . 2 f . . 2 . e
+ 4 i # . u . 2 . # r
+ 5 q u a r k . . . g
+ 6 u # . z . 2 . # r
+ 7 e . 2 e . . 2 . o
+ 8 d 2 . # . # . 2 w
+ 9 $ . . . 3 . . . n
+   A B C D E F G H I
+Letras na mão: rbnndvwounpgngunesro
+I1V overgrown 40 pontos
+Letras na mão:  b nd   unp ngun s o
+ 1 a n t i p a s t o
+ 2 n 2 . # . # . 2 v
+ 3 t . 2 f . w 2 . e
+ 4 i # . u . a . # r
+ 5 q u a r k s . . g
+ 6 u # . z . p . # r
+ 7 e . 2 e . s 2 . o
+ 8 d 2 . # . # . 2 w
+ 9 $ . . . 3 . . . n
+   A B C D E F G H I
+Letras na mão: bndunpngunsodwlnyays
+F3V wasps 33 pontos
+Letras na mão: bndun ngun od lny y 
+ 1 a n t i p a s t o
+ 2 n 2 . # . # . 2 v
+ 3 t . 2 f . w 2 . e
+ 4 i # . u . a . # r
+ 5 q u a r k s . . g
+ 6 u # . z . p . # r
+ 7 e . y e . s 2 . o
+ 8 d 2 o # . # . 2 w
+ 9 $ . n . 3 . . . n
+   A B C D E F G H I
+Letras na mão: bndunngunodlnyyoyngi
+C7V yon 19 pontos
+Letras na mão: b dunngun dln yoyngi
+ 1 a n t i p a s t o
+ 2 n 2 . # . # . 2 v
+ 3 t . 2 f . w 2 . e
+ 4 i # . u . a . # r
+ 5 q u a r k s . . g
+ 6 u # . z i p . # r
+ 7 e . y e n s 2 . o
+ 8 d 2 o # d # . 2 w
+ 9 $ . n . 3 . . . n
+   A B C D E F G H I
+Letras na mão: bdunngundlnyoyngineb
+E5V kind 30 pontos
+Letras na mão: b u ngundlnyoyng neb
+ 1 a n t i p a s t o
+ 2 n 2 . # . # . 2 v
+ 3 t . 2 f . w e . e
+ 4 i # . u . a x # r
+ 5 q u a r k s . . g
+ 6 u # . z i p . # r
+ 7 e . y e n s 2 . o
+ 8 d 2 o # d # . 2 w
+ 9 $ . n . 3 . . . n
+   A B C D E F G H I
+Letras na mão: bungundlnyoyngnebxaa
+G3V ex 25 pontos
+Letras na mão: bungundlnyoyngn b aa
+ 1 a n t i p a s t o
+ 2 n 2 . # . # . 2 v
+ 3 t . 2 f . w e . e
+ 4 i # . u . a x # r
+ 5 q u a r k s . . g
+ 6 u # . z i p . # r
+ 7 e . y e n s 2 . o
+ 8 d 2 o # d # . 2 w
+ 9 $ . n . a n y . n
+   A B C D E F G H I
+Letras na mão: bungundlnyoyngnbaaed
+E9H any 20 pontos
+Letras na mão: bu gundln oyngnb aed
+ 1 a n t i p a s t o
+ 2 n 2 . # . # . 2 v
+ 3 t . 2 f . w e . e
+ 4 i # . u . a x # r
+ 5 q u a r k s . . g
+ 6 u # . z i p . # r
+ 7 e . y e n s 2 y o
+ 8 d 2 o # d # . o w
+ 9 $ . n . a n y . n
+   A B C D E F G H I
+Letras na mão: bugundlnoyngnbaedclf
+H7V yo 17 pontos
+Letras na mão: bugundln  ngnbaedclf
+ 1 a n t i p a s t o
+ 2 n 2 . # . # . 2 v
+ 3 t . 2 f . w e . e
+ 4 i # . u . a x # r
+ 5 q u a r k s . . g
+ 6 u # . z i p . # r
+ 7 e . y e n s 2 y o
+ 8 d 2 o # d # b o w
+ 9 $ . n . a n y . n
+   A B C D E F G H I
+Letras na mão: bugundlnngnbaedclfdm
+G8V by 15 pontos
+Letras na mão:  ugundlnngnbaedclfdm
+ 1 a n t i p a s t o
+ 2 n 2 . # . # . 2 v
+ 3 t . 2 f . w e . e
+ 4 i # m u . a x # r
+ 5 q u a r k s . . g
+ 6 u # . z i p . # r
+ 7 e . y e n s 2 y o
+ 8 d 2 o # d # b o w
+ 9 $ . n . a n y . n
+   A B C D E F G H I
+Letras na mão: ugundlnngnbaedclfdml
+C4V ma 8 pontos
+Letras na mão: ugundlnngnbaedclfd l
+ 1 a n t i p a s t o
+ 2 n u . # . # . 2 v
+ 3 t . 2 f . w e . e
+ 4 i # m u . a x # r
+ 5 q u a r k s . . g
+ 6 u # . z i p . # r
+ 7 e . y e n s 2 y o
+ 8 d 2 o # d # b o w
+ 9 $ . n . a n y . n
+   A B C D E F G H I
+Letras na mão: ugundlnngnbaedclfdlj
+B1V nu 6 pontos
+Letras na mão:  gundlnngnbaedclfdlj
+ 1 a n t i p a s t o
+ 2 n u . # . # . 2 v
+ 3 t . 2 f . w e . e
+ 4 i # m u . a x # r
+ 5 q u a r k s . . g
+ 6 u # . z i p . # r
+ 7 e . y e n s 2 y o
+ 8 d u o # d # b o w
+ 9 $ . n . a n y . n
+   A B C D E F G H I
+Letras na mão: gundlnngnbaedclfdljy
+A8H duo 5 pontos
+Letras na mão: g ndlnngnbaedclfdljy
+ 1 a n t i p a s t o
+ 2 n u . # a # . 2 v
+ 3 t . 2 f . w e . e
+ 4 i # m u . a x # r
+ 5 q u a r k s . . g
+ 6 u # . z i p . # r
+ 7 e . y e n s 2 y o
+ 8 d u o # d # b o w
+ 9 $ . n . a n y . n
+   A B C D E F G H I
+Letras na mão: gndlnngnbaedclfdljyy
+E1V pa 4 pontos
+Letras na mão: gndlnngnb edclfdljyy
+Fim do jogo. Total de pontos obtidos: 363

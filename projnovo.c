@@ -14,6 +14,7 @@ typedef struct Jogadas
 }jogada;
 
 void ini_board (char board[15][15],int n);
+int imp_board (char board[15][15],int n);
 void print_board (char board[15][15],int n);
 int modo_1 (char board[15][15],int n, int*);
 void modo_2(char board[15][15], int n);
@@ -25,19 +26,37 @@ char **abrir(FILE* ,int, int*);
 
 int main(){
   char board[15][15]; //endereço do board
-  int n, f = 0,j, pontos = 0;
-  printf(" indique o tamanho do tabuleiro, deve ser impar:\n");
+  int n, f = 0,j, pontos = 0,imp=0;
+  printf("deseja importar um tabuleiro insira 1 se nao insira 0:\n");
   do{
-    scanf("%d",&n);
-    while((getchar())!='\n'); //limpeza do buffer para usar o fgets() ao longo do programa
-    
-    if(n%2==0){
-      printf("o tabuleiro tem de ter tamanho impar tente de novo:\n");
-    }
-  }while((n%2)==0);
+  scanf("%d",&imp);
+
+  if(imp!=1&&imp!=0){
+    printf("resposta invalida tente de novo\n");
+  }
+  }while(imp!=1&&imp!=0);
+
+  if(imp==1){
+
+     while((getchar())!='\n'); //limpeza do buffer para usar o fgets() ao longo do programa
+    n=imp_board(board,n);
+    printf("%d\n",n);
+    print_board(board,n);
+    return 0;
+  }else{
+     while((getchar())!='\n'); //limpeza do buffer para usar o fgets() ao longo do programa
+     printf(" indique o tamanho do tabuleiro, deve ser impar:\n");
+     do{
+        scanf("%d",&n);
+        while((getchar())!='\n'); //limpeza do buffer para usar o fgets() ao longo do programa
+
+        if(n%2==0){
+        printf("o tabuleiro tem de ter tamanho impar tente de novo:\n");
+        }
+    }while((n%2)==0);
 
   ini_board(board,n);
-
+  }
   do {
     printf("que modo de jogo quer jogar:\n");
     scanf("%d",&j);
@@ -109,6 +128,52 @@ void print_board(char board[15][15], int n){
   return;
  }
 
+ int imp_board(char board[15][15],int n){
+    FILE *imp;
+    int i=0,j,linha=0,coluna=0,k=0;
+    char *imps[20],palavra[20],palavra2[20];
+    for(i=0;i<=20;i++){
+        imps[i]= (char*) malloc(1000*sizeof(char));
+    }
+
+    if(imp = fopen("home/wonebone/Documentos/Prog/Projeto/Exemplos_board/9x9-vazio.txt","r")==NULL){
+        printf("falha a abrir o tabuleiro");
+        return 0;
+    }
+
+    for(i=0;i<20;i++){
+        fgets(imps[i],100,imp);
+    }
+    i=0;
+    do{
+    strcpy(palavra,imps[i]);
+    printf("%s",palavra);
+
+    for(j=3;j<20;j++){
+       if(palavra[j]!=' '){
+         palavra2[k]=palavra[j];
+         k++;
+       }
+    }
+    printf("%s",palavra2);
+    for(k=0;k<15;k++){
+        board[linha][coluna]=palavra2[k];
+        coluna++;
+    }
+    linha++;
+
+    k=0;
+    coluna=0;
+    i++;
+    }while(strchr(imps[i],'A')==NULL&&linha!=15);
+
+    for(i=0;i<20;i++){
+        free(imps[i]);
+    }
+    fclose(imp);
+    return linha;
+ }
+
 int modo_1(char board[15][15],int n, int *pontos){
 
   int coluna,linha,j = 0,k,l = 0,f = 0;
@@ -164,7 +229,7 @@ int modo_1(char board[15][15],int n, int *pontos){
       }
     }
   }
-  
+
   while (i!='\0'&& i!='\n'){
     if(board[linha][coluna]=='$'){
       f++;
@@ -204,21 +269,20 @@ int modo_1(char board[15][15],int n, int *pontos){
 void modo_2(char board[15][15], int n){
   int points = 0, linha, coluna, dir = 1;
   jogada play =  look_word(board, n, n/2, n/2, 0);
-  
+
   //Primeira jogada na casa central
   putin_board(board, n, play);
   print_board(board, n);
   printf("%s, %d\n", play.palavra, play.pontos);
   points = points + play.pontos;
   //Loop. Efetua jogadas até look_word não encontrar uma jogada válida
-  while (1){ 
+  while (1){
     for(linha = 0; linha < n; linha++){
       for(coluna = 0; coluna< n; coluna ++){
         if ((int) board[linha][coluna] >= (int) 'a' && (int) board[linha][coluna] <= (int) 'z'){
           play = look_word(board, n, linha, coluna, dir);
           if (play.pontos == 0){
-            printf("Jogo acabado com %d pontos\n", points);
-            return;
+            continue;
           }
           putin_board(board, n, play);
           print_board(board, n);
@@ -230,8 +294,11 @@ void modo_2(char board[15][15], int n){
         }
       }
     }
+    if (play.pontos == 0){
+      printf("Jogo acabado com %d pontos\n", points);
+      return;
+    }
   }
-return;
 }
 
 void bbc(char board[15][15], int n){
@@ -262,7 +329,7 @@ void putin_board(char board[15][15], int n, jogada play ){
     board[linha][coluna] = play.palavra[i];
     if ((play.direcao%2) == 0 )
       coluna++;
-    else 
+    else
       linha ++;
     i++;
   }
@@ -298,10 +365,15 @@ int point_word(char board[15][15],int n, jogada play){
          }
     }
     if((play.direcao%2)==0){
-        coluna++;
-    }else{
-        linha++;
-          }
+      coluna++;
+      if (coluna > n)
+        return 0;
+    }
+    else{
+      linha++;
+      if(linha > n)
+        return 0;
+    }
     a++;
     i=play.palavra[a];
     }
@@ -340,13 +412,13 @@ jogada look_word(char board[15][15],int n,int linha,int coluna,int direcao){
       r= n-length;
       if((direcao%2)==0)
         try1.coluna=0;
-      else 
+      else
         try1.linha=0;
       try2 = try1;
       for(r; r >= 0; r--){
         try2.pontos = point_word(board,n,try2);
         if(try1.pontos<try2.pontos)
-          try1 = try2;        
+          try1 = try2;
         if((direcao%2)==0)
           try2.coluna++;
         else

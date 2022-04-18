@@ -1,0 +1,287 @@
+ 1 $ . . . . 3 . . . . $
+ 2 . 2 . . # . # . . 2 .
+ 3 . . 2 . . . . . 2 . .
+ 4 . . . 2 . . . 2 . . .
+ 5 . # . . 2 . 2 . . # .
+ 6 q u i z z i c a l l y
+ 7 . # . . 2 . 2 . . # .
+ 8 . . . 2 . . . 2 . . .
+ 9 . . 2 . . . . . 2 . .
+10 . 2 . . # . # . . 2 .
+11 $ . . . . 3 . . . . $
+   A B C D E F G H I J K
+A6H quizzically 72 pontos
+ 1 i . . . . 3 . . . . $
+ 2 n 2 . . # . # . . 2 .
+ 3 f . 2 . . . . . 2 . .
+ 4 r . . 2 . . . 2 . . .
+ 5 e # . . 2 . 2 . . # .
+ 6 q u i z z i c a l l y
+ 7 u # . . 2 . 2 . . # .
+ 8 e . . 2 . . . 2 . . .
+ 9 n . 2 . . . . . 2 . .
+10 c 2 . . # . # . . 2 .
+11 y . . . . 3 . . . . $
+   A B C D E F G H I J K
+A1V infrequency 112 pontos
+ 1 i . . . . 3 . . . . p
+ 2 n 2 . . # . # . . 2 r
+ 3 f . 2 . . . . . 2 . o
+ 4 r . . 2 . . . 2 . . p
+ 5 e # . . 2 . 2 . . # h
+ 6 q u i z z i c a l l y
+ 7 u # . . 2 . 2 . . # l
+ 8 e . . 2 . . . 2 . . a
+ 9 n . 2 . . . . . 2 . x
+10 c 2 . . # . # . . 2 i
+11 y . . . . 3 . . . . s
+   A B C D E F G H I J K
+K1V prophylaxis 112 pontos
+ 1 i . . . . q . . . . p
+ 2 n 2 . . # u # . . 2 r
+ 3 f . 2 . . i . . 2 . o
+ 4 r . . 2 . z . 2 . . p
+ 5 e # . . 2 z 2 . . # h
+ 6 q u i z z i c a l l y
+ 7 u # . . 2 c 2 . . # l
+ 8 e . . 2 . a . 2 . . a
+ 9 n . 2 . . l . . 2 . x
+10 c 2 . . # l # . . 2 i
+11 y . . . . y . . . . s
+   A B C D E F G H I J K
+F1V quizzically 71 pontos
+ 1 i . . . . q . . . . p
+ 2 n 2 . . # u # p . 2 r
+ 3 f . 2 . . i . i 2 . o
+ 4 r . . 2 . z . z . . p
+ 5 e # . . 2 z 2 z . # h
+ 6 q u i z z i c a l l y
+ 7 u # . . 2 c 2 z . # l
+ 8 e . . 2 . a . z . . a
+ 9 n . 2 . . l . . 2 . x
+10 c 2 . . # l # . . 2 i
+11 y . . . . y . . . . s
+   A B C D E F G H I J K
+H2V pizzazz 65 pontos
+ 1 i . . . . q . . . . p
+ 2 n 2 . . # u # p . 2 r
+ 3 f . 2 p . i . i 2 . o
+ 4 r . . i . z . z . . p
+ 5 e # . z 2 z 2 z . # h
+ 6 q u i z z i c a l l y
+ 7 u # . a 2 c 2 z . # l
+ 8 e . . z . a . z . . a
+ 9 n . 2 z . l . . 2 . x
+10 c 2 . . # l # . . 2 i
+11 y . . . . y . . . . s
+   A B C D E F G H I J K
+D3V pizzazz 56 pontos
+ 1 i . . . . q . . . . p
+ 2 n 2 . . # u # p . 2 r
+ 3 f . 2 p p i . i 2 . o
+ 4 r . . i i z . z . . p
+ 5 e # . z z z 2 z . # h
+ 6 q u i z z i c a l l y
+ 7 u # . a a c 2 z . # l
+ 8 e . . z z a . z . . a
+ 9 n . 2 z z l . . 2 . x
+10 c 2 . . # l # . . 2 i
+11 y . . . . y . . . . s
+   A B C D E F G H I J K
+E3V pizzazz 56 pontos
+ 1 i . . . . q . . . . p
+ 2 n 2 . . # u # p . 2 r
+ 3 f . 2 p p i . i 2 . o
+ 4 r . . i i z . z . . p
+ 5 e # p z z z 2 z . # h
+ 6 q u i z z i c a l l y
+ 7 u # z a a c 2 z . # l
+ 8 e . z z z a . z . . a
+ 9 n . a z z l . . 2 . x
+10 c 2 z . # l # . . 2 i
+11 y . z . . y . . . . s
+   A B C D E F G H I J K
+C5V pizzazz 46 pontos
+ 1 i . . . . q . . f . p
+ 2 n 2 . . # u # p u 2 r
+ 3 f . 2 p p i . i z . o
+ 4 r . . i i z . z z . p
+ 5 e # p z z z 2 z i # h
+ 6 q u i z z i c a l l y
+ 7 u # z a a c 2 z y # l
+ 8 e . z z z a . z . . a
+ 9 n . a z z l . . 2 . x
+10 c 2 z . # l # . . 2 i
+11 y . z . . y . . . . s
+   A B C D E F G H I J K
+I1V fuzzily 41 pontos
+ 1 i . . . . q . . f . p
+ 2 n 2 . . # u # p u 2 r
+ 3 f . 2 p p i c i z . o
+ 4 r . . i i z o z z . p
+ 5 e # p z z z x z i # h
+ 6 q u i z z i c a l l y
+ 7 u # z a a c o z y # l
+ 8 e . z z z a m z . . a
+ 9 n . a z z l b . 2 . x
+10 c 2 z . # l # . . 2 i
+11 y . z . . y . . . . s
+   A B C D E F G H I J K
+G3V coxcomb 31 pontos
+ 1 i . . . . q . . f . p
+ 2 n 2 . . # u # p u 2 r
+ 3 f . 2 p p i c i z . o
+ 4 r . . i i z o z z . p
+ 5 e # p z z z x z i # h
+ 6 q u i z z i c a l l y
+ 7 u # z a a c o z y # l
+ 8 e . z z z a m z . . a
+ 9 n . a z z l b . 2 . x
+10 c 2 z . # l # . . 2 i
+11 y . z . z y g o t e s
+   A B C D E F G H I J K
+E11H zygotes 20 pontos
+ 1 i . . . . q . . f . p
+ 2 n 2 . . # u # p u 2 r
+ 3 f . 2 p p i c i z . o
+ 4 r . . i i z o z z . p
+ 5 e # p z z z x z i # h
+ 6 q u i z z i c a l l y
+ 7 u # z a a c o z y # l
+ 8 e . z z z a m z . f a
+ 9 n . a z z l b . 2 a x
+10 c 2 z . # l # . . z i
+11 y . z . z y g o t e s
+   A B C D E F G H I J K
+J8V faze 26 pontos
+ 1 i . . . . q . . f . p
+ 2 n 2 . . # u # p u 2 r
+ 3 f . 2 p p i c i z . o
+ 4 r . . i i z o z z . p
+ 5 e # p z z z x z i # h
+ 6 q u i z z i c a l l y
+ 7 u # z a a c o z y # l
+ 8 e . z z z a m z . f a
+ 9 n . a z z l b . z a x
+10 c 2 z . # l # . i z i
+11 y . z . z y g o t e s
+   A B C D E F G H I J K
+I9V zit 22 pontos
+ 1 i . . . . q . . f . p
+ 2 n 2 . . # u # p u 2 r
+ 3 f . 2 p p i c i z . o
+ 4 r . . i i z o z z . p
+ 5 e # p z z z x z i # h
+ 6 q u i z z i c a l l y
+ 7 u # z a a c o z y # l
+ 8 e . z z z a m z . f a
+ 9 n . a z z l b . z a x
+10 c o z y # l # . i z i
+11 y . z . z y g o t e s
+   A B C D E F G H I J K
+A10H cozy 19 pontos
+ 1 i . . . . q . . f . p
+ 2 n 2 . . # u # p u 2 r
+ 3 f . 2 p p i c i z . o
+ 4 r . . i i z o z z . p
+ 5 e # p z z z x z i # h
+ 6 q u i z z i c a l l y
+ 7 u # z a a c o z y # l
+ 8 e z z z z a m z . f a
+ 9 n o a z z l b . z a x
+10 c o z y # l # . i z i
+11 y m z . z y g o t e s
+   A B C D E F G H I J K
+B8V zoom 15 pontos
+ 1 i b e x . q . . f . p
+ 2 n 2 . . # u # p u 2 r
+ 3 f . 2 p p i c i z . o
+ 4 r . . i i z o z z . p
+ 5 e # p z z z x z i # h
+ 6 q u i z z i c a l l y
+ 7 u # z a a c o z y # l
+ 8 e z z z z a m z . f a
+ 9 n o a z z l b . z a x
+10 c o z y # l # . i z i
+11 y m z . z y g o t e s
+   A B C D E F G H I J K
+A1H ibex 13 pontos
+ 1 i b e x . q . . f . p
+ 2 n u . . # u # p u 2 r
+ 3 f z 2 p p i c i z . o
+ 4 r z . i i z o z z . p
+ 5 e # p z z z x z i # h
+ 6 q u i z z i c a l l y
+ 7 u # z a a c o z y # l
+ 8 e z z z z a m z . f a
+ 9 n o a z z l b . z a x
+10 c o z y # l # . i z i
+11 y m z . z y g o t e s
+   A B C D E F G H I J K
+B1V buzz 25 pontos
+ 1 i b e x . q . . f . p
+ 2 n u l . # u # p u 2 r
+ 3 f z k p p i c i z . o
+ 4 r z . i i z o z z . p
+ 5 e # p z z z x z i # h
+ 6 q u i z z i c a l l y
+ 7 u # z a a c o z y # l
+ 8 e z z z z a m z . f a
+ 9 n o a z z l b . z a x
+10 c o z y # l # . i z i
+11 y m z . z y g o t e s
+   A B C D E F G H I J K
+C1V elk 12 pontos
+ 1 i b e x . q . . f o p
+ 2 n u l . # u # p u 2 r
+ 3 f z k p p i c i z . o
+ 4 r z . i i z o z z . p
+ 5 e # p z z z x z i # h
+ 6 q u i z z i c a l l y
+ 7 u # z a a c o z y # l
+ 8 e z z z z a m z . f a
+ 9 n o a z z l b . z a x
+10 c o z y # l # . i z i
+11 y m z . z y g o t e s
+   A B C D E F G H I J K
+I1H fop 8 pontos
+ 1 i b e x . q . . f o p
+ 2 n u l . # u # p u x r
+ 3 f z k p p i c i z e o
+ 4 r z . i i z o z z n p
+ 5 e # p z z z x z i # h
+ 6 q u i z z i c a l l y
+ 7 u # z a a c o z y # l
+ 8 e z z z z a m z . f a
+ 9 n o a z z l b . z a x
+10 c o z y # l # . i z i
+11 y m z . z y g o t e s
+   A B C D E F G H I J K
+J1V oxen 19 pontos
+ 1 i b e x . q . . f o p
+ 2 n u l . # u # p u x r
+ 3 f z k p p i c i z e o
+ 4 r z . i i z o z z n p
+ 5 e # p z z z x z i # h
+ 6 q u i z z i c a l l y
+ 7 u # z a a c o z y # l
+ 8 e z z z z a m z . f a
+ 9 n o a z z l b . z a x
+10 c o z y # l # h i z i
+11 y m z . z y g o t e s
+   A B C D E F G H I J K
+H10V ho 5 pontos
+ 1 i b e x . q . . f o p
+ 2 n u l l # u # p u x r
+ 3 f z k p p i c i z e o
+ 4 r z . i i z o z z n p
+ 5 e # p z z z x z i # h
+ 6 q u i z z i c a l l y
+ 7 u # z a a c o z y # l
+ 8 e z z z z a m z . f a
+ 9 n o a z z l b . z a x
+10 c o z y # l # h i z i
+11 y m z . z y g o t e s
+   A B C D E F G H I J K
+A2H null 4 pontos
+Fim do jogo. Total de pontos obtidos: 850
