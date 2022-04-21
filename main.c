@@ -1,7 +1,7 @@
 #include "libhead.h"
 
 int main(int argc, char *argv[]){
-  char board[15][15], *dicname = "/usr/share/dict/words"; //endereço do board
+  char board[15][15], *playbook_archive = NULL, *dicname = "/usr/share/dict/words";; 
   int opt = 0, n = 9, f = 0,j = 0, pontos = 0, flag = 0, trash = 0;
 
 while((opt = getopt(argc, argv, ARG_LIST)) != -1){
@@ -44,8 +44,13 @@ while((opt = getopt(argc, argv, ARG_LIST)) != -1){
     }
     break;
   case 'd':
-    dicname = optarg;
+    strcpy(dicname, optarg);
     break;
+  case 'r':
+    playbook_archive = malloc(strlen(optarg) * sizeof(char));
+    strcpy(playbook_archive, optarg);
+    break;
+  
   case('?'):
     printf("Argumento não reconhecido");
     break;
@@ -62,7 +67,7 @@ while((opt = getopt(argc, argv, ARG_LIST)) != -1){
       break;
 
     case 2:
-      modo_2(board ,n, dicname);
+      modo_2(board ,n, dicname, playbook_archive);
       break;
     case 5:
       //bbc(board,n);

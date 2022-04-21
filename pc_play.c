@@ -77,12 +77,12 @@ int point_word(char board[15][15],int n, jogada play){
 }
 
 //Função que procura para uma dada posição a palavra que vale mais pontos de acordo com as específicações dadas no enunciado
-jogada *look_word(char board[15][15],int n,int linha,int coluna,int direcao, char* dic, jogada *lista){
+jogada *look_word(char board[15][15],int n,int linha,int coluna,int direcao, jogada *lista){
   char **word;
-  jogada play = {"\0", linha, coluna, direcao, 0, NULL}, *buffer;
+  jogada play = {"\0", linha, coluna, direcao, 0, NULL}, *buffer = NULL;
   int length,i,r, sizeOfDic = 0;
   FILE *Dic;
-  if((Dic = fopen(dic,"r"))==NULL){
+  if((Dic = fopen(dicname,"r"))==NULL){
     printf("fds nao consegui abrir a merda do eng");
   }
 
@@ -102,10 +102,12 @@ jogada *look_word(char board[15][15],int n,int linha,int coluna,int direcao, cha
         play.coluna=r;
       else
         play.linha=r;
-      for(r; r >= 0; r--){
+      for(; r >= 0; r--){
         play.pontos = point_word(board,n,play);
         if (play.pontos > 0){
+          //printf("malloc teu cu %p", buffer);
             buffer = malloc(sizeof(struct Jogadas));
+            //printf("malloc teu cu %p", buffer);
             strcpy(buffer->palavra, play.palavra);
             buffer->linha = play.linha;
             buffer->coluna = play.coluna;
@@ -123,10 +125,12 @@ jogada *look_word(char board[15][15],int n,int linha,int coluna,int direcao, cha
     else{
       r = length ;
 
-      for(r; r > 0; r--){
+      for(; r > 0; r--){
         play.pontos = point_word(board,n,play);
         if(play.pontos > 0 ){
+          //printf("malloc meu cu %p", buffer);
             buffer = malloc(sizeof(struct Jogadas));
+            //printf("malloc meu cu %p", buffer);
             strcpy(buffer->palavra, play.palavra);
             buffer->linha = play.linha;
             buffer->coluna = play.coluna;

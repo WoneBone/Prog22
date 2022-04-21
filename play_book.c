@@ -41,12 +41,7 @@ jogada *burn_playbook(jogada *lista){
     }
     return NULL;
 }
-void remove_nextin_playbook(jogada*play){
-    jogada *AuxH;
-    AuxH = play-> next;
-    play->next = AuxH->next;
-    free(AuxH);
-}
+
 void print_playbook(jogada *lista, FILE *file){
     char dir;
     jogada *Aux = lista;
@@ -61,16 +56,20 @@ void print_playbook(jogada *lista, FILE *file){
     return;
 }
 jogada *snip_playbook(jogada *lista){
-    int tesoura = lista->pontos/2;
-    jogada *Aux = lista;
-    while (Aux->next != NULL){
-        Aux = Aux->next;
-        if(Aux->pontos < tesoura){
-            remove_nextin_playbook(Aux);
-        }
+    int tesoura = (lista->pontos)/2;
+    jogada *Aux1 = lista, *Aux2 = lista->next;
+    while (Aux2->next != NULL && Aux2->pontos >= tesoura){
+        Aux1 = Aux2;
+        Aux2 = Aux1->next;
     }
-    free(Aux);
-
+    while (Aux1->next != NULL)
+    {
+        Aux1->next = Aux2->next;
+        Aux2->next =NULL;
+        free(Aux2);
+        Aux2 = Aux1->next;
+    }
+    return lista;
 }
 
 

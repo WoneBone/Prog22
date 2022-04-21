@@ -61,7 +61,7 @@ int imp_board(char board[15][15],int n, char *filename){
         return 0;
     }
 
-    for(i=0;i<20;i++){
+    for(i=0;i<35;i++){
         fgets(imps[i],100,imp);
     }
     i=0;
@@ -87,7 +87,7 @@ int imp_board(char board[15][15],int n, char *filename){
     i++;
     }while(strchr(imps[i],'A')==NULL&&linha!=15);
 
-    for(i=0;i<20;i++){
+    for(i=0;i<35;i++){
         free(imps[i]);
     }
     fclose(imp);

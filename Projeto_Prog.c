@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "libhead.h"
 void print_board (char board[15][15],int n);//função que define e imprime o tabuleiro inicial
 void check_board (char board[15][15],int n);//funçao para ser utilizada durante o programa para ver como está o tabuleiro
 void write_board (char board[15][15],int n);
 int main()
 {   char board[15][15]; //endereço do board
     int n;
+                                                                                                                                                                                                                                                                  merda();
       printf(" indique o tamanho do tabuleiro, deve ser impar:\n");
       do{
          scanf("%d",&n);

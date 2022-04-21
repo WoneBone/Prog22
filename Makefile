@@ -1,7 +1,7 @@
 #compiler
 CC = gcc
 #compile flags (in the valgrind debugging stage the flag -ggdb3 was also being used
-CFLAGS  = -Wall -O3 -g
+CFLAGS  = -Wall -g
 #executable
 default: palavras
 #Linking
