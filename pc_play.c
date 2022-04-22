@@ -77,7 +77,7 @@ int point_word(char board[15][15],int n, jogada play){
 }
 
 //Função que procura para uma dada posição a palavra que vale mais pontos de acordo com as específicações dadas no enunciado
-jogada *look_word(char board[15][15],int n,int linha,int coluna,int direcao, jogada *lista){
+jogada *look_word(char board[15][15],int n,int linha,int coluna,int direcao, jogada *lista, char *dicname){
   char **word;
   jogada play = {"\0", linha, coluna, direcao, 0, NULL}, *buffer = NULL;
   int length,i,r, sizeOfDic = 0;

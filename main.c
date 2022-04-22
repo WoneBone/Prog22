@@ -1,7 +1,8 @@
 #include "libhead.h"
 
 int main(int argc, char *argv[]){
-  char board[15][15], *playbook_archive = NULL, *dicname = "/usr/share/dict/words";; 
+  char board[15][15]; 
+  files ficheiros = {"/usr/share/dict/words", NULL, NULL, NULL};
   int opt = 0, n = 9, f = 0,j = 0, pontos = 0, flag = 0, trash = 0;
 
 while((opt = getopt(argc, argv, ARG_LIST)) != -1){
@@ -9,7 +10,7 @@ while((opt = getopt(argc, argv, ARG_LIST)) != -1){
 
   case ':':
     printf("Argumento em falta.\nUse -h para ajuda com a linha de comandos\n");
-    return -1;
+    return -1;  
     break;
   case 'h':
     help();
@@ -31,7 +32,8 @@ while((opt = getopt(argc, argv, ARG_LIST)) != -1){
     }
     break;
   case'i':
-    n = imp_board(board, n, optarg);
+    ficheiros.imp = optarg;
+    n = imp_board(board, n, ficheiros.imp);
     printf("%d\n",n);
     print_board(board,n);
     flag = 1;
@@ -44,11 +46,10 @@ while((opt = getopt(argc, argv, ARG_LIST)) != -1){
     }
     break;
   case 'd':
-    strcpy(dicname, optarg);
+    ficheiros.dicname = optarg;
     break;
   case 'r':
-    playbook_archive = malloc(strlen(optarg) * sizeof(char));
-    strcpy(playbook_archive, optarg);
+    ficheiros.playbook_archive = optarg;
     break;
   
   case('?'):
@@ -67,7 +68,7 @@ while((opt = getopt(argc, argv, ARG_LIST)) != -1){
       break;
 
     case 2:
-      modo_2(board ,n, dicname, playbook_archive);
+      modo_2(board ,n, ficheiros);
       break;
     case 5:
       //bbc(board,n);
