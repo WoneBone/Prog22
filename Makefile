@@ -20,3 +20,7 @@ define_board.o: define_board.c libhead.h
 	$(CC) $(CFLAGS) -c define_board.c libhead.h
 play_book.o: play_book.c libhead.h
 	$(CC) $(CFLAGS) -c play_book.c libhead.h
+
+#remove object files and emac backup files from directory before forcing recompilation
+clean:
+	$(RM) count *.o *~
