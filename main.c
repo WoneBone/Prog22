@@ -1,16 +1,17 @@
 #include "libhead.h"
 
 int main(int argc, char *argv[]){
-  char board[15][15]; 
+  char board[15][15],c2,letra;
   files ficheiros = {"/usr/share/dict/words", NULL, NULL, NULL};
-  int opt = 0, n = 9, f = 0,j = 0, pontos = 0, flag = 0, trash = 0;
+  int opt = 0, n = 9, f = 0,j = 0, pontos = 0, flag = 0, trash = 0,l=0,c=0, numeroJogadas = -1;
+  FILE *board_out=NULL;
 
 while((opt = getopt(argc, argv, ARG_LIST)) != -1){
   switch(opt){
 
   case ':':
     printf("Argumento em falta.\nUse -h para ajuda com a linha de comandos\n");
-    return -1;  
+    return -1;
     break;
   case 'h':
     help();
@@ -51,7 +52,13 @@ while((opt = getopt(argc, argv, ARG_LIST)) != -1){
   case 'r':
     ficheiros.playbook_archive = optarg;
     break;
-  
+  case 'o':
+    ficheiros.final_putin=optarg;
+    break;
+  case 'n':
+    numeroJogadas = atoi(optarg);
+    break;
+
   case('?'):
     printf("Argumento não reconhecido");
     break;
@@ -68,13 +75,30 @@ while((opt = getopt(argc, argv, ARG_LIST)) != -1){
       break;
 
     case 2:
-      modo_2(board ,n, ficheiros);
+      modo_2(board ,n, ficheiros, numeroJogadas);
       break;
     case 5:
       //bbc(board,n);
       break;
     }
-  return 0;
+   if(ficheiros.final_putin!=NULL){
+      board_out=fopen(ficheiros.final_putin,"w");
+      for(l=0;l<n;l++){
+        fprintf(board_out,"%d\t",l+1);
+        for(c=0;c<n;c++){
+            fprintf(board_out,"%c ",board[l][c]);
+        }
+        fprintf(board_out,"\n");
+        }
+      fprintf(board_out,"\t");
+      c2=n-1+'A';
+      for(letra='A';letra<=c2;++letra){
+        fprintf(board_out,"%c ",letra);
+        }
+      printf("\n");
+      fclose(board_out);
+      }
+ return 0;
 }
 
 

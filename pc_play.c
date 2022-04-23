@@ -25,9 +25,8 @@ void putin_board(char board[15][15], int n, jogada play ){
 int point_word(char board[15][15],int n, jogada play){
   int pontos_letras[] = {1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10};
   int a=0,points=0,k=0,f=0, linha = play.linha, coluna= play.coluna, flg = 0;
-  char i=play.palavra[a];
-  while(i!='\n'&&i!='\0'){
-    if(board[linha][coluna]=='#' || ( (int) i > (int) 'z')||( (int) i < (int) 'a') || strlen(play.palavra) < 2 ){
+  while(play.palavra[a]!='\n'&&play.palavra[a]!='\0'){
+    if(board[linha][coluna]=='#' || ( (int) play.palavra[a] > (int) 'z')||( (int) play.palavra[a] < (int) 'a') || strlen(play.palavra) < 2 ){
       return 0;
     }else if(board[linha][coluna]=='$'){
       f++;
@@ -43,7 +42,7 @@ int point_word(char board[15][15],int n, jogada play){
     }else if(board[linha][coluna]=='2'){
       k = (int) play.palavra[a] - 'a';
       points=points+(pontos_letras[k]*2);
-    }else if(board[linha][coluna]>='a'&&board[linha][coluna]<='z'){
+    }else if(board[linha][coluna] >='a' && board[linha][coluna]<='z'){
          if(board[linha][coluna]!=play.palavra[a]){
             return 0;
          }
@@ -64,7 +63,6 @@ int point_word(char board[15][15],int n, jogada play){
         return 0;
     }
     a++;
-    i=play.palavra[a];
     }
     if(flg == strlen(play.palavra))
         return 0;
@@ -104,10 +102,9 @@ jogada *look_word(char board[15][15],int n,int linha,int coluna,int direcao, jog
         play.linha=r;
       for(; r >= 0; r--){
         play.pontos = point_word(board,n,play);
-        if (play.pontos > 0){
-          //printf("malloc teu cu %p", buffer);
+        if (play.pontos > 0 || strcmp(play.palavra,)){
+
             buffer = malloc(sizeof(struct Jogadas));
-            //printf("malloc teu cu %p", buffer);
             strcpy(buffer->palavra, play.palavra);
             buffer->linha = play.linha;
             buffer->coluna = play.coluna;
@@ -128,9 +125,8 @@ jogada *look_word(char board[15][15],int n,int linha,int coluna,int direcao, jog
       for(; r > 0; r--){
         play.pontos = point_word(board,n,play);
         if(play.pontos > 0 ){
-          //printf("malloc meu cu %p", buffer);
+
             buffer = malloc(sizeof(struct Jogadas));
-            //printf("malloc meu cu %p", buffer);
             strcpy(buffer->palavra, play.palavra);
             buffer->linha = play.linha;
             buffer->coluna = play.coluna;
@@ -156,6 +152,7 @@ jogada *look_word(char board[15][15],int n,int linha,int coluna,int direcao, jog
 for(i=0;i<sizeOfDic;i++){
   free(word[i]);
 }
+free(word);
 return lista;
 }
 

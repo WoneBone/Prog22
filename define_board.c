@@ -36,7 +36,7 @@ void print_board(char board[15][15], int n){
   for(i=0;i<n;i++){
     printf("%d\t",i+1);
     for(j=0;j<n;j++)
-      printf("%c ",board[i][j]);
+        printf("%c ",board[i][j]);
     printf("\n");
   }
   printf("\t");

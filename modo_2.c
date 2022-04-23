@@ -1,6 +1,6 @@
 #include "libhead.h"
 
-void modo_2(char board[15][15], int n, files ficheiro ){
+void modo_2(char board[15][15], int n, files ficheiro, int j ){
   int points = 0, linha, coluna, dir = 1, num = 1, playbook_flg = 0;
   jogada *plays;
   plays = look_word(board, n, n/2, n/2, 0, NULL, ficheiro.dicname);
@@ -27,7 +27,7 @@ void modo_2(char board[15][15], int n, files ficheiro ){
   }
   plays = burn_playbook(plays);
   //Loop. Efetua jogadas até look_word não encontrar uma jogada válida
-  while (1){
+  while (num<j || j == -1){
     for(linha = 0; linha < n; linha++){
       for(coluna = 0; coluna< n; coluna ++){
         if ( board[linha][coluna] >=  'a' &&  board[linha][coluna] <=  'z'){
@@ -38,7 +38,7 @@ void modo_2(char board[15][15], int n, files ficheiro ){
         }
       }
 
-    if (plays == NULL || plays->pontos == 0){
+    if (plays == NULL){
       printf("Jogo acabado com %d pontos\n", points);
        if(playbook_flg == 1)
         fclose(fp);
@@ -50,7 +50,8 @@ void modo_2(char board[15][15], int n, files ficheiro ){
       printf("%s com %d pontos\n", plays->palavra, plays->pontos);
       points = points + plays->pontos;
       num ++;
-      plays = snip_playbook(plays);
+      if (num != 4)
+        plays = snip_playbook(plays);
       if(playbook_flg == 1){
         fprintf(fp,"Jogada %d\n", num);
         print_playbook(plays, fp);
@@ -58,4 +59,8 @@ void modo_2(char board[15][15], int n, files ficheiro ){
       plays = burn_playbook(plays);
     }
   }
+    printf("Jogo acabado com %d pontos\n", points);
+    if(playbook_flg == 1)
+        fclose(fp);
+    return;
 }
