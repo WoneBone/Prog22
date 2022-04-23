@@ -30,7 +30,7 @@ void ini_board (char board[15][15],int n);
 int imp_board (char board[15][15],int n, char *filename);
 void print_board (char board[15][15],int n);
 int modo_1 (char board[15][15],int n, int*);
-void modo_2(char board[15][15], int n, files);
+void modo_2(char board[15][15], int n, files ficheiro, int j);
 int point_word(char board[15][15], int n, jogada);
 jogada *look_word(char board[15][15],int n,int linha,int coluna,int direcao, jogada* play, char *dicname);
 void putin_board(char board[15][15], int n, jogada);
